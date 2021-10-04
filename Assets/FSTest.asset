@@ -1,0 +1,1271 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9128879681353170004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93fc507b1b266014ab43f9ce92622c2a, type: 3}
+  m_Name: SR_DoorwayPlacer-[Walls]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  OwnerSpawner:
+    Enabled: 1
+    Name: Entry
+    SpawnerTag: 
+    StampPrefabID: 0
+    Parent: {fileID: 2695121508503031261}
+    Rules:
+    - {fileID: -9128879681353170004}
+    Mode: 0
+    CellCheckMode: 0
+    GridScaling: 0
+    OnScalledGrid: 1
+    Repeat: 1
+    MultipleToSpawn: 0
+    UseGlobalRules: 1
+    UseParentPackageRules: 1
+    _wasEnablingGlobalRules: 0
+    ScaleAccess: 1
+    DisplayPreviewGUI: 1
+    IsSubSpawner: 0
+    _EditorDisplaySpawnerHeader: 1
+  CellAllow: 0
+  AllConditionsMet: 1
+  replaceOnTag: Wall
+  CheckMode: 0
+  Offset: {x: 0, y: 0, z: 0}
+  OffsetMode: 0
+  YawRotationOffset: 0
+  RemoveDistance: 0.1
+  DistanceSource: 0
+  DebugDirection: 0
+--- !u!114 &-8682489050566763827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bc77d951f142764987a7f4ca1cf8f61, type: 3}
+  m_Name: SR_SpawningPropability-[Walls]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  OwnerSpawner:
+    Enabled: 1
+    Name: Entry
+    SpawnerTag: 
+    StampPrefabID: 1
+    Parent: {fileID: 2695121508503031261}
+    Rules:
+    - {fileID: -6910746342220396335}
+    - {fileID: -8682489050566763827}
+    Mode: 0
+    CellCheckMode: 0
+    GridScaling: 0
+    OnScalledGrid: 1
+    Repeat: 1
+    MultipleToSpawn: 0
+    UseGlobalRules: 1
+    UseParentPackageRules: 1
+    _wasEnablingGlobalRules: 1
+    ScaleAccess: 1
+    DisplayPreviewGUI: 1
+    IsSubSpawner: 0
+    _EditorDisplaySpawnerHeader: 1
+  CellAllow: 0
+  AllConditionsMet: 1
+  Propability: 0.107
+  PropabilityMulVariable:
+    name: 
+    requiredType: 1
+--- !u!114 &-7471063882649304550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93fc507b1b266014ab43f9ce92622c2a, type: 3}
+  m_Name: SR_DoorwayPlacer-[Walls]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  OwnerSpawner:
+    Enabled: 1
+    Name: Entry
+    SpawnerTag: 
+    StampPrefabID: 0
+    Parent: {fileID: 2695121508503031261}
+    Rules:
+    - {fileID: -6910746342220396335}
+    - {fileID: -8682489050566763827}
+    Mode: 0
+    CellCheckMode: 0
+    GridScaling: 0
+    OnScalledGrid: 1
+    Repeat: 1
+    MultipleToSpawn: 0
+    UseGlobalRules: 1
+    UseParentPackageRules: 1
+    _wasEnablingGlobalRules: 1
+    ScaleAccess: 1
+    DisplayPreviewGUI: 1
+    IsSubSpawner: 0
+    _EditorDisplaySpawnerHeader: 1
+  CellAllow: 0
+  AllConditionsMet: 1
+  replaceOnTag: Wall
+  CheckMode: 0
+  Offset: {x: 0, y: 0, z: 0}
+  OffsetMode: 0
+  YawRotationOffset: 0
+  RemoveDistance: 0.1
+  DistanceSource: 0
+  DebugDirection: 0
+--- !u!114 &-6910746342220396335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9327e64f60ac33a4fa5e7efebb9176fb, type: 3}
+  m_Name: SR_GetCoords-[Walls]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  OwnerSpawner:
+    Enabled: 1
+    Name: Entry
+    SpawnerTag: 
+    StampPrefabID: 1
+    Parent: {fileID: 2695121508503031261}
+    Rules:
+    - {fileID: -6910746342220396335}
+    - {fileID: -8682489050566763827}
+    Mode: 0
+    CellCheckMode: 0
+    GridScaling: 0
+    OnScalledGrid: 1
+    Repeat: 1
+    MultipleToSpawn: 0
+    UseGlobalRules: 1
+    UseParentPackageRules: 1
+    _wasEnablingGlobalRules: 1
+    ScaleAccess: 1
+    DisplayPreviewGUI: 1
+    IsSubSpawner: 0
+    _EditorDisplaySpawnerHeader: 1
+  CellAllow: 1
+  AllConditionsMet: 1
+  GetFromTagged: Wall
+  CheckMode: 0
+  WorldOffset: {x: 0, y: 0, z: 0}
+  OffsetMode: 0
+  DirectionalOffset: {x: -2.37, y: 1, z: 0}
+  StackOffset: 0
+  RotationEulerOffset: {x: 0, y: 0, z: 0}
+  GetScale: 0
+  ScaleMultiplier: {x: 1, y: 1, z: 1}
+  RandomOffsets: {x: 0, y: 0, z: 0}
+  RandomLocalRotation: {x: 0, y: 0, z: 0}
+  RandomScale: {x: 0, y: 0, z: 0}
+  PivotOffset: {x: 0, y: 0, z: 0}
+  MultiplyGetted: {x: 1, y: 1, z: 1}
+  DontSpawnIfNoTagged: 1
+  RemoveTagged: 1
+  GetRandomIfMulti: 0
+  RunOnRepetition: 0
+  HelperMode: 0
+  _DrawOffsets: 1
+  _DrawRandomization: 0
+  _DrawAdditionals: 1
+--- !u!114 &-6442784592197830615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bc77d951f142764987a7f4ca1cf8f61, type: 3}
+  m_Name: SR_SpawningPropability-[Walls]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  OwnerSpawner:
+    Enabled: 1
+    Name: Entry
+    SpawnerTag: 
+    StampPrefabID: 1
+    Parent: {fileID: 2695121508503031261}
+    Rules:
+    - {fileID: 3690123789028131083}
+    - {fileID: -6442784592197830615}
+    - {fileID: 978558450564167758}
+    Mode: 0
+    CellCheckMode: 0
+    GridScaling: 0
+    OnScalledGrid: 1
+    Repeat: 1
+    MultipleToSpawn: 0
+    UseGlobalRules: 1
+    UseParentPackageRules: 1
+    _wasEnablingGlobalRules: 1
+    ScaleAccess: 1
+    DisplayPreviewGUI: 1
+    IsSubSpawner: 0
+    _EditorDisplaySpawnerHeader: 1
+  CellAllow: 0
+  AllConditionsMet: 1
+  Propability: 0.221
+  PropabilityMulVariable:
+    name: 
+    requiredType: 1
+--- !u!114 &-6330117872554255926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207e1eaa379db1743a31893a3b87cc58, type: 3}
+  m_Name: SR_BoundedOffset-[Walls]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 1
+  Enabled: 1
+  Ignore: 0
+  OwnerSpawner:
+    Enabled: 1
+    Name: Wall1
+    SpawnerTag: 
+    StampPrefabID: 1
+    Parent: {fileID: 2695121508503031261}
+    Rules:
+    - {fileID: 913903158242128226}
+    - {fileID: -6330117872554255926}
+    Mode: 0
+    CellCheckMode: 0
+    GridScaling: 0
+    OnScalledGrid: 1
+    Repeat: 1
+    MultipleToSpawn: 0
+    UseGlobalRules: 1
+    UseParentPackageRules: 1
+    _wasEnablingGlobalRules: 1
+    ScaleAccess: 1
+    DisplayPreviewGUI: 1
+    IsSubSpawner: 0
+    _EditorDisplaySpawnerHeader: 1
+  CellAllow: 1
+  AllConditionsMet: 1
+  WorldOffset: {x: 0, y: 0, z: 0}
+  DirectionalOffset: {x: 1.2, y: 0, z: 0}
+  DirectFrom: 
+  CheckMode: 0
+--- !u!114 &-5506567189699240990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a80a4eda1baa814cb0a342f0acfc697, type: 3}
+  m_Name: SR_LimitSpawnCount-[Walls]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  OwnerSpawner:
+    Enabled: 1
+    Name: Entry
+    SpawnerTag: 
+    StampPrefabID: 0
+    Parent: {fileID: 2695121508503031261}
+    Rules:
+    - {fileID: -6910746342220396335}
+    - {fileID: -8682489050566763827}
+    Mode: 0
+    CellCheckMode: 0
+    GridScaling: 0
+    OnScalledGrid: 1
+    Repeat: 1
+    MultipleToSpawn: 0
+    UseGlobalRules: 1
+    UseParentPackageRules: 1
+    _wasEnablingGlobalRules: 1
+    ScaleAccess: 1
+    DisplayPreviewGUI: 1
+    IsSubSpawner: 0
+    _EditorDisplaySpawnerHeader: 1
+  CellAllow: 0
+  AllConditionsMet: 1
+  Count:
+    Min: 1
+    Max: 1
+  CountMulVariable:
+    name: 
+    requiredType: 1
+  InheritFromCellsCount: 0
+  RoomCellsDivBy:
+    Min: 4
+    Max: 6
+--- !u!114 &-5262334920414099505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c360632d4510a074baef619f3210b541, type: 3}
+  m_Name: SR_CellNeightbours-[Walls](Clone)
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  OwnerSpawner:
+    Enabled: 1
+    Name: Wall2
+    SpawnerTag: 
+    StampPrefabID: 1
+    Parent: {fileID: 2695121508503031261}
+    Rules:
+    - {fileID: -5262334920414099505}
+    Mode: 0
+    CellCheckMode: 0
+    GridScaling: 0
+    OnScalledGrid: 1
+    Repeat: 1
+    MultipleToSpawn: 0
+    UseGlobalRules: 1
+    UseParentPackageRules: 1
+    _wasEnablingGlobalRules: 1
+    ScaleAccess: 1
+    DisplayPreviewGUI: 1
+    IsSubSpawner: 0
+    _EditorDisplaySpawnerHeader: 1
+  CellAllow: 0
+  AllConditionsMet: 1
+  CheckedCellsMustBe: 2
+  NeightbourNeeds: 0
+  occupiedByTag: 
+  CheckMode: 0
+  DirectCheck: 0
+  OffsetOrigin: {x: 0, y: 0, z: 0}
+  placement:
+    lu: 0
+    u: 0
+    ru: 0
+    l: 1
+    m: 0
+    r: 0
+    ld: 0
+    d: 0
+    rd: 0
+    UseAdvancedSetup: 0
+    AdvancedSetup: []
+  quartRotor:
+    q1: 1
+    q2: 0
+    q3: 0
+    q4: 0
+  OverrideRotation: 1
+  initRotation: 90
+  rotorEff: 90
+  spawnOn: 5
+  EachRotor: 0
+  CustomRotors:
+  - 0
+  - 0
+  - 0
+  - 0
+  GetNeightbourPos: 0
+  GetNeightbourRot: 0
+  GetNeightbourScale: 0
+  CustomCellsCheck: 0
+  FullRotGet: 0
+--- !u!114 &-1256013324391017358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 893e62798003cfc4ba6de159ef003bf2, type: 3}
+  m_Name: SR_WallPlacer-[Walls]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  OwnerSpawner:
+    Enabled: 1
+    Name: Walls
+    SpawnerTag: Wall
+    StampPrefabID: 0
+    Parent: {fileID: 2695121508503031261}
+    Rules:
+    - {fileID: -1256013324391017358}
+    Mode: 0
+    CellCheckMode: 0
+    GridScaling: 0
+    OnScalledGrid: 1
+    Repeat: 1
+    MultipleToSpawn: 0
+    UseGlobalRules: 1
+    UseParentPackageRules: 1
+    _wasEnablingGlobalRules: 1
+    ScaleAccess: 1
+    DisplayPreviewGUI: 1
+    IsSubSpawner: 0
+    _EditorDisplaySpawnerHeader: 1
+  CellAllow: 1
+  AllConditionsMet: 1
+  Module: 0
+  CornerMode: 0
+  CornerMode45: 0
+  SpawnOnEachSide: 1
+  UseYLevel: -1
+  AutoRemoveOverlaps: 1
+  Padding: 0
+  YawOffset: 0
+  DirectOffset: {x: 2.37, y: 0, z: -1}
+  OffsetMode: 0
+  IgnoreOtherMods: 1
+  DontCheckAdditionals: 0
+--- !u!114 &-1061330983850791152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207e1eaa379db1743a31893a3b87cc58, type: 3}
+  m_Name: SR_BoundedOffset-[Walls]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  OwnerSpawner:
+    Enabled: 1
+    Name: Wall2
+    SpawnerTag: 
+    StampPrefabID: 1
+    Parent: {fileID: 2695121508503031261}
+    Rules:
+    - {fileID: -5262334920414099505}
+    Mode: 0
+    CellCheckMode: 0
+    GridScaling: 0
+    OnScalledGrid: 1
+    Repeat: 1
+    MultipleToSpawn: 0
+    UseGlobalRules: 1
+    UseParentPackageRules: 1
+    _wasEnablingGlobalRules: 1
+    ScaleAccess: 1
+    DisplayPreviewGUI: 1
+    IsSubSpawner: 0
+    _EditorDisplaySpawnerHeader: 1
+  CellAllow: 1
+  AllConditionsMet: 1
+  WorldOffset: {x: 3.84, y: 0, z: 0}
+  DirectionalOffset: {x: 0, y: 0, z: 0}
+  DirectFrom: 
+  CheckMode: 0
+--- !u!114 &-870413626168018385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207e1eaa379db1743a31893a3b87cc58, type: 3}
+  m_Name: SR_BoundedOffset-[Walls](Clone)
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 1
+  Enabled: 1
+  Ignore: 0
+  OwnerSpawner:
+    Enabled: 1
+    Name: Wall2
+    SpawnerTag: 
+    StampPrefabID: 1
+    Parent: {fileID: 2695121508503031261}
+    Rules:
+    - {fileID: -5262334920414099505}
+    Mode: 0
+    CellCheckMode: 0
+    GridScaling: 0
+    OnScalledGrid: 1
+    Repeat: 1
+    MultipleToSpawn: 0
+    UseGlobalRules: 1
+    UseParentPackageRules: 1
+    _wasEnablingGlobalRules: 1
+    ScaleAccess: 1
+    DisplayPreviewGUI: 1
+    IsSubSpawner: 0
+    _EditorDisplaySpawnerHeader: 1
+  CellAllow: 1
+  AllConditionsMet: 1
+  WorldOffset: {x: 1.2, y: 0, z: -35}
+  DirectionalOffset: {x: 0, y: 0, z: 0}
+  DirectFrom: 
+  CheckMode: 0
+--- !u!114 &-685942301195593608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9327e64f60ac33a4fa5e7efebb9176fb, type: 3}
+  m_Name: SR_GetCoords-[Walls]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  OwnerSpawner:
+    Enabled: 1
+    Name: PR_Entry
+    SpawnerTag: 
+    StampPrefabID: 0
+    Parent: {fileID: 2695121508503031261}
+    Rules:
+    - {fileID: -685942301195593608}
+    Mode: 0
+    CellCheckMode: 0
+    GridScaling: 0
+    OnScalledGrid: 1
+    Repeat: 1
+    MultipleToSpawn: 0
+    UseGlobalRules: 1
+    UseParentPackageRules: 1
+    _wasEnablingGlobalRules: 0
+    ScaleAccess: 1
+    DisplayPreviewGUI: 1
+    IsSubSpawner: 0
+    _EditorDisplaySpawnerHeader: 1
+  CellAllow: 0
+  AllConditionsMet: 1
+  GetFromTagged: Wall
+  CheckMode: 0
+  WorldOffset: {x: 0, y: 0, z: 0}
+  OffsetMode: 0
+  DirectionalOffset: {x: 0, y: 0, z: 0}
+  StackOffset: 0
+  RotationEulerOffset: {x: 0, y: 0, z: 0}
+  GetScale: 0
+  ScaleMultiplier: {x: 1, y: 1, z: 1}
+  RandomOffsets: {x: 0, y: 0, z: 0}
+  RandomLocalRotation: {x: 0, y: 0, z: 0}
+  RandomScale: {x: 0, y: 0, z: 0}
+  PivotOffset: {x: 0, y: 0, z: 0}
+  MultiplyGetted: {x: 1, y: 1, z: 1}
+  DontSpawnIfNoTagged: 0
+  RemoveTagged: 0
+  GetRandomIfMulti: 0
+  RunOnRepetition: 0
+  HelperMode: 0
+  _DrawOffsets: 1
+  _DrawRandomization: 0
+  _DrawAdditionals: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b6c361108247f045b5087f48c0c7951, type: 3}
+  m_Name: FSTest
+  m_EditorClassIdentifier: 
+  CellSize: 2
+  NonUniformSize: 0
+  NonUniformCellSize: {x: 2, y: 2, z: 2}
+  InfoText: Here write custom note about FieldSetup
+  Variables:
+  - Name: Spawn Propability Multiplier
+    v3Val: {x: 1, y: 0, z: 0}
+    str: 
+    mat: {fileID: 0}
+    gameObj: {fileID: 0}
+    helper: {x: 0, y: 5, z: 0}
+    ValueType: 1
+  - Name: Spawn Count Multiplier
+    v3Val: {x: 1, y: 0, z: 0}
+    str: 
+    mat: {fileID: 0}
+    gameObj: {fileID: 0}
+    helper: {x: 0, y: 5, z: 0}
+    ValueType: 1
+  DoorsModificator: {fileID: 11400000, guid: 7500e28d48a8ac44da90dfc8719e91ef, type: 2}
+  EraseWallModificator: {fileID: 11400000, guid: c5bd286613ebcb24c932c8d5e7f79f9b, type: 2}
+  CellsInstructions:
+  - Title: Door Hole
+    InstructionType: 1
+    TargetModification: {fileID: 11400000, guid: 7500e28d48a8ac44da90dfc8719e91ef, type: 2}
+    Tags: Props
+    InstructionArgument: 
+    Foldout: 1
+    extraMod: {fileID: 0}
+    extraPack: {fileID: 0}
+  - Title: Clear Wall
+    InstructionType: 3
+    TargetModification: {fileID: 11400000, guid: c5bd286613ebcb24c932c8d5e7f79f9b, type: 2}
+    Tags: 
+    InstructionArgument: 
+    Foldout: 1
+    extraMod: {fileID: 0}
+    extraPack: {fileID: 0}
+  RootPack: {fileID: 5855821939807553770}
+  ModificatorPacks:
+  - {fileID: 5855821939807553770}
+  Ignores: []
+  DontSpawnOn: 
+  SelfInjections: []
+  disabledMods: []
+  AddReflectionProbes: 0
+  MainReflectionSettings: {fileID: 11400000, guid: dabe448206028124294db7edb02eed3f, type: 2}
+  AddMultipleProbes: 0
+  SmallerReflSettings: {fileID: 11400000, guid: 290a908b3df7c6a4a84c21c932841cde, type: 2}
+  MiniReflSettings: {fileID: 11400000, guid: b243a7973537dbf4faacf7bbda74dada, type: 2}
+  SmallerReflLowerSpaceThan: 4
+  AddLightProbes: 0
+  ProbesPerCell: 1
+  TriggerColliderGeneration: 0
+  TriggerGenSettings:
+    ScaleupTriggers: 1
+    FillHeight: 1
+    MaxCellChecks: 10
+    JoinBounds: 1
+    GenerateRelations: 1
+    GroupUpToSize: 8
+    MaxGroupDistance: 8
+--- !u!114 &913903158242128226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c360632d4510a074baef619f3210b541, type: 3}
+  m_Name: SR_CellNeightbours-[Walls]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  OwnerSpawner:
+    Enabled: 1
+    Name: Wall1
+    SpawnerTag: 
+    StampPrefabID: 1
+    Parent: {fileID: 2695121508503031261}
+    Rules:
+    - {fileID: 913903158242128226}
+    - {fileID: -6330117872554255926}
+    Mode: 0
+    CellCheckMode: 0
+    GridScaling: 0
+    OnScalledGrid: 1
+    Repeat: 1
+    MultipleToSpawn: 0
+    UseGlobalRules: 1
+    UseParentPackageRules: 1
+    _wasEnablingGlobalRules: 1
+    ScaleAccess: 1
+    DisplayPreviewGUI: 1
+    IsSubSpawner: 0
+    _EditorDisplaySpawnerHeader: 1
+  CellAllow: 0
+  AllConditionsMet: 1
+  CheckedCellsMustBe: 2
+  NeightbourNeeds: 0
+  occupiedByTag: 
+  CheckMode: 0
+  DirectCheck: 0
+  OffsetOrigin: {x: 0, y: 0, z: 0}
+  placement:
+    lu: 0
+    u: 0
+    ru: 0
+    l: 0
+    m: 0
+    r: 0
+    ld: 0
+    d: 1
+    rd: 0
+    UseAdvancedSetup: 0
+    AdvancedSetup: []
+  quartRotor:
+    q1: 1
+    q2: 0
+    q3: 0
+    q4: 0
+  OverrideRotation: 1
+  initRotation: 0
+  rotorEff: 90
+  spawnOn: 5
+  EachRotor: 0
+  CustomRotors:
+  - 0
+  - 0
+  - 0
+  - 0
+  GetNeightbourPos: 0
+  GetNeightbourRot: 0
+  GetNeightbourScale: 0
+  CustomCellsCheck: 0
+  FullRotGet: 0
+--- !u!114 &978558450564167758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207e1eaa379db1743a31893a3b87cc58, type: 3}
+  m_Name: SR_BoundedOffset-[Walls]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  OwnerSpawner:
+    Enabled: 1
+    Name: Entry
+    SpawnerTag: 
+    StampPrefabID: 1
+    Parent: {fileID: 2695121508503031261}
+    Rules:
+    - {fileID: 3690123789028131083}
+    - {fileID: -6442784592197830615}
+    - {fileID: 978558450564167758}
+    Mode: 0
+    CellCheckMode: 0
+    GridScaling: 0
+    OnScalledGrid: 1
+    Repeat: 1
+    MultipleToSpawn: 0
+    UseGlobalRules: 1
+    UseParentPackageRules: 1
+    _wasEnablingGlobalRules: 1
+    ScaleAccess: 1
+    DisplayPreviewGUI: 1
+    IsSubSpawner: 0
+    _EditorDisplaySpawnerHeader: 1
+  CellAllow: 1
+  AllConditionsMet: 1
+  WorldOffset: {x: 0, y: 0, z: 0}
+  DirectionalOffset: {x: 0, y: 0, z: 0}
+  DirectFrom: 
+  CheckMode: 0
+--- !u!114 &2695121508503031261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 671fd9c659a53a04eb310656f11c9125, type: 3}
+  m_Name: Walls
+  m_EditorClassIdentifier: 
+  TemporaryContainer: {fileID: 0}
+  Enabled: 1
+  ModTag: 
+  DrawMeshAndBox: 0
+  RunEmittersIfContains: 0
+  DrawSetupFor: 0
+  OStamp: {fileID: 0}
+  DrawObjectStamps: 1
+  OMultiStamp: {fileID: 0}
+  PrefabsList:
+  - Prefab: {fileID: 4337870902633989084, guid: 87e526109f16fbe488c63d11d045f904, type: 3}
+    MainCollider: {fileID: 0}
+    subID: 0
+    _refMesh: {fileID: 3948671194712595525, guid: 8bd7aa43cb7dd39429880cc5407de701, type: 3}
+    _refCol: {fileID: 0}
+  - Prefab: {fileID: 4155586262533359631, guid: 26d1c771a201c2745a7c15dfedbd8778, type: 3}
+    MainCollider: {fileID: 0}
+    subID: 0
+    _refMesh: {fileID: 6206450301262281439, guid: 42601ef8037d0f449b4bfced94ce33e9, type: 3}
+    _refCol: {fileID: 0}
+  DrawMultiObjectStamps: 1
+  Spawners:
+  - Enabled: 1
+    Name: Walls
+    SpawnerTag: Wall
+    StampPrefabID: 0
+    Parent: {fileID: 2695121508503031261}
+    Rules:
+    - {fileID: -1256013324391017358}
+    Mode: 0
+    CellCheckMode: 0
+    GridScaling: 0
+    OnScalledGrid: 1
+    Repeat: 1
+    MultipleToSpawn: 0
+    UseGlobalRules: 1
+    UseParentPackageRules: 1
+    _wasEnablingGlobalRules: 1
+    ScaleAccess: 1
+    DisplayPreviewGUI: 1
+    IsSubSpawner: 0
+    _EditorDisplaySpawnerHeader: 1
+  - Enabled: 1
+    Name: Entry
+    SpawnerTag: 
+    StampPrefabID: 1
+    Parent: {fileID: 2695121508503031261}
+    Rules:
+    - {fileID: 3690123789028131083}
+    - {fileID: -6442784592197830615}
+    - {fileID: 978558450564167758}
+    Mode: 0
+    CellCheckMode: 0
+    GridScaling: 0
+    OnScalledGrid: 1
+    Repeat: 1
+    MultipleToSpawn: 0
+    UseGlobalRules: 1
+    UseParentPackageRules: 1
+    _wasEnablingGlobalRules: 1
+    ScaleAccess: 1
+    DisplayPreviewGUI: 1
+    IsSubSpawner: 0
+    _EditorDisplaySpawnerHeader: 1
+  VariantOf: {fileID: 0}
+  _editor_drawStamp: 1
+  _editor_drawSpawners: 1
+  _editor_drawGlobalRules: 0
+  _editor_drawModPackRules: 0
+  _editor_shareSelected: 1
+  ParentPreset: {fileID: 11400000}
+  ParentPack: {fileID: 5855821939807553770}
+--- !u!114 &2757265723296920339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c360632d4510a074baef619f3210b541, type: 3}
+  m_Name: SR_CellNeightbours-[Walls](Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  OwnerSpawner:
+    Enabled: 1
+    Name: Wall4
+    SpawnerTag: 
+    StampPrefabID: 1
+    Parent: {fileID: 2695121508503031261}
+    Rules:
+    - {fileID: 2757265723296920339}
+    Mode: 0
+    CellCheckMode: 0
+    GridScaling: 0
+    OnScalledGrid: 1
+    Repeat: 1
+    MultipleToSpawn: 0
+    UseGlobalRules: 1
+    UseParentPackageRules: 1
+    _wasEnablingGlobalRules: 1
+    ScaleAccess: 1
+    DisplayPreviewGUI: 1
+    IsSubSpawner: 0
+    _EditorDisplaySpawnerHeader: 1
+  CellAllow: 1
+  AllConditionsMet: 1
+  CheckedCellsMustBe: 2
+  NeightbourNeeds: 0
+  occupiedByTag: 
+  CheckMode: 0
+  DirectCheck: 0
+  OffsetOrigin: {x: 0, y: 0, z: 0}
+  placement:
+    lu: 0
+    u: 0
+    ru: 0
+    l: 0
+    m: 0
+    r: 1
+    ld: 0
+    d: 0
+    rd: 0
+    UseAdvancedSetup: 0
+    AdvancedSetup: []
+  quartRotor:
+    q1: 1
+    q2: 0
+    q3: 0
+    q4: 0
+  OverrideRotation: 1
+  initRotation: 270
+  rotorEff: 90
+  spawnOn: 5
+  EachRotor: 0
+  CustomRotors:
+  - 0
+  - 0
+  - 0
+  - 0
+  GetNeightbourPos: 0
+  GetNeightbourRot: 0
+  GetNeightbourScale: 0
+  CustomCellsCheck: 0
+  FullRotGet: 0
+--- !u!114 &3414941206306078713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c360632d4510a074baef619f3210b541, type: 3}
+  m_Name: SR_CellNeightbours-[Walls](Clone)(Clone)
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  OwnerSpawner:
+    Enabled: 1
+    Name: Wall3
+    SpawnerTag: 
+    StampPrefabID: 1
+    Parent: {fileID: 2695121508503031261}
+    Rules:
+    - {fileID: 3414941206306078713}
+    Mode: 0
+    CellCheckMode: 0
+    GridScaling: 0
+    OnScalledGrid: 1
+    Repeat: 1
+    MultipleToSpawn: 0
+    UseGlobalRules: 1
+    UseParentPackageRules: 1
+    _wasEnablingGlobalRules: 1
+    ScaleAccess: 1
+    DisplayPreviewGUI: 1
+    IsSubSpawner: 0
+    _EditorDisplaySpawnerHeader: 1
+  CellAllow: 1
+  AllConditionsMet: 1
+  CheckedCellsMustBe: 2
+  NeightbourNeeds: 0
+  occupiedByTag: 
+  CheckMode: 0
+  DirectCheck: 0
+  OffsetOrigin: {x: 0, y: 0, z: 0}
+  placement:
+    lu: 0
+    u: 1
+    ru: 0
+    l: 0
+    m: 0
+    r: 0
+    ld: 0
+    d: 0
+    rd: 0
+    UseAdvancedSetup: 0
+    AdvancedSetup: []
+  quartRotor:
+    q1: 1
+    q2: 0
+    q3: 0
+    q4: 0
+  OverrideRotation: 1
+  initRotation: 180
+  rotorEff: 90
+  spawnOn: 5
+  EachRotor: 0
+  CustomRotors:
+  - 0
+  - 0
+  - 0
+  - 0
+  GetNeightbourPos: 0
+  GetNeightbourRot: 0
+  GetNeightbourScale: 0
+  CustomCellsCheck: 0
+  FullRotGet: 0
+--- !u!114 &3690123789028131083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9327e64f60ac33a4fa5e7efebb9176fb, type: 3}
+  m_Name: SR_GetCoords-[Walls]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  OwnerSpawner:
+    Enabled: 1
+    Name: Entry
+    SpawnerTag: 
+    StampPrefabID: 1
+    Parent: {fileID: 2695121508503031261}
+    Rules:
+    - {fileID: 3690123789028131083}
+    - {fileID: -6442784592197830615}
+    - {fileID: 978558450564167758}
+    Mode: 0
+    CellCheckMode: 0
+    GridScaling: 0
+    OnScalledGrid: 1
+    Repeat: 1
+    MultipleToSpawn: 0
+    UseGlobalRules: 1
+    UseParentPackageRules: 1
+    _wasEnablingGlobalRules: 1
+    ScaleAccess: 1
+    DisplayPreviewGUI: 1
+    IsSubSpawner: 0
+    _EditorDisplaySpawnerHeader: 1
+  CellAllow: 1
+  AllConditionsMet: 1
+  GetFromTagged: Wall
+  CheckMode: 0
+  WorldOffset: {x: 0, y: 0, z: 0}
+  OffsetMode: 0
+  DirectionalOffset: {x: -2.3685, y: 1, z: 0}
+  StackOffset: 0
+  RotationEulerOffset: {x: 0, y: 0, z: 0}
+  GetScale: 0
+  ScaleMultiplier: {x: 1, y: 1, z: 1}
+  RandomOffsets: {x: 0, y: 0, z: 0}
+  RandomLocalRotation: {x: 0, y: 0, z: 0}
+  RandomScale: {x: 0, y: 0, z: 0}
+  PivotOffset: {x: 0, y: 0, z: 0}
+  MultiplyGetted: {x: 1, y: 1, z: 1}
+  DontSpawnIfNoTagged: 1
+  RemoveTagged: 1
+  GetRandomIfMulti: 0
+  RunOnRepetition: 0
+  HelperMode: 0
+  _DrawOffsets: 1
+  _DrawRandomization: 0
+  _DrawAdditionals: 1
+--- !u!114 &5855821939807553770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f132315e3189e59479a1674dc7e52576, type: 3}
+  m_Name: Walls
+  m_EditorClassIdentifier: 
+  FieldModificators:
+  - {fileID: 2695121508503031261}
+  ParentPreset: {fileID: 11400000}
+  DisableWholePackage: 0
+  SeedMode: 0
+  CustomSeed: 0
+  ModPackType: 0
+  TagForAllSpawners: 
+  Variables: []
+  CallOnAllMod: {fileID: 0}
+  CallOnAllSpawners:
+    Enabled: 0
+    Name: 
+    SpawnerTag: 
+    StampPrefabID: 0
+    Parent: {fileID: 0}
+    Rules: []
+    Mode: 0
+    CellCheckMode: 0
+    GridScaling: 0
+    OnScalledGrid: 0
+    Repeat: 0
+    MultipleToSpawn: 0
+    UseGlobalRules: 0
+    UseParentPackageRules: 0
+    _wasEnablingGlobalRules: 0
+    ScaleAccess: 0
+    DisplayPreviewGUI: 0
+    IsSubSpawner: 0
+    _EditorDisplaySpawnerHeader: 0
+  _EditorDisplayCallOnAll: 0
+--- !u!114 &7024566584937917198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 893e62798003cfc4ba6de159ef003bf2, type: 3}
+  m_Name: SR_WallPlacer-[Walls]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  OwnerSpawner:
+    Enabled: 1
+    Name: Walls
+    SpawnerTag: Wall
+    StampPrefabID: 0
+    Parent: {fileID: 2695121508503031261}
+    Rules:
+    - {fileID: 7024566584937917198}
+    Mode: 0
+    CellCheckMode: 0
+    GridScaling: 0
+    OnScalledGrid: 1
+    Repeat: 1
+    MultipleToSpawn: 0
+    UseGlobalRules: 1
+    UseParentPackageRules: 1
+    _wasEnablingGlobalRules: 1
+    ScaleAccess: 1
+    DisplayPreviewGUI: 1
+    IsSubSpawner: 0
+    _EditorDisplaySpawnerHeader: 1
+  CellAllow: 1
+  AllConditionsMet: 1
+  Module: 0
+  CornerMode: 0
+  CornerMode45: 0
+  SpawnOnEachSide: 1
+  UseYLevel: -1
+  AutoRemoveOverlaps: 1
+  Padding: 0
+  YawOffset: 0
+  DirectOffset: {x: 1.77, y: 0, z: -1}
+  OffsetMode: 0
+  IgnoreOtherMods: 1
+  DontCheckAdditionals: 0
+--- !u!114 &7052241781496938148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207e1eaa379db1743a31893a3b87cc58, type: 3}
+  m_Name: SR_BoundedOffset-[Walls]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 1
+  Enabled: 1
+  Ignore: 0
+  OwnerSpawner:
+    Enabled: 1
+    Name: Walls
+    SpawnerTag: Wall
+    StampPrefabID: 1
+    Parent: {fileID: 2695121508503031261}
+    Rules:
+    - {fileID: 7024566584937917198}
+    Mode: 0
+    CellCheckMode: 0
+    GridScaling: 0
+    OnScalledGrid: 1
+    Repeat: 1
+    MultipleToSpawn: 0
+    UseGlobalRules: 1
+    UseParentPackageRules: 1
+    _wasEnablingGlobalRules: 1
+    ScaleAccess: 1
+    DisplayPreviewGUI: 1
+    IsSubSpawner: 0
+    _EditorDisplaySpawnerHeader: 1
+  CellAllow: 1
+  AllConditionsMet: 1
+  WorldOffset: {x: 0, y: 0, z: 0}
+  DirectionalOffset: {x: 0, y: 0, z: 0}
+  DirectFrom: 
+  CheckMode: 0

@@ -473,7 +473,7 @@ MonoBehaviour:
   AutoRemoveOverlaps: 1
   Padding: 0
   YawOffset: 0
-  DirectOffset: {x: 2.37, y: 0, z: -1}
+  DirectOffset: {x: 0, y: 0, z: -1}
   OffsetMode: 0
   IgnoreOtherMods: 1
   DontCheckAdditionals: 0
@@ -848,15 +848,15 @@ MonoBehaviour:
   DrawObjectStamps: 1
   OMultiStamp: {fileID: 0}
   PrefabsList:
-  - Prefab: {fileID: 4337870902633989084, guid: 87e526109f16fbe488c63d11d045f904, type: 3}
-    MainCollider: {fileID: 0}
+  - Prefab: {fileID: 1244770539152700715, guid: 87e526109f16fbe488c63d11d045f904, type: 3}
+    MainCollider: {fileID: -4819496767247781012, guid: 87e526109f16fbe488c63d11d045f904, type: 3}
     subID: 0
-    _refMesh: {fileID: 3948671194712595525, guid: 8bd7aa43cb7dd39429880cc5407de701, type: 3}
+    _refMesh: {fileID: 0}
     _refCol: {fileID: 0}
-  - Prefab: {fileID: 4155586262533359631, guid: 26d1c771a201c2745a7c15dfedbd8778, type: 3}
-    MainCollider: {fileID: 0}
+  - Prefab: {fileID: 3108565048321606417, guid: 26d1c771a201c2745a7c15dfedbd8778, type: 3}
+    MainCollider: {fileID: 8248020144387841636, guid: 26d1c771a201c2745a7c15dfedbd8778, type: 3}
     subID: 0
-    _refMesh: {fileID: 6206450301262281439, guid: 42601ef8037d0f449b4bfced94ce33e9, type: 3}
+    _refMesh: {fileID: 0}
     _refCol: {fileID: 0}
   DrawMultiObjectStamps: 1
   Spawners:
@@ -907,7 +907,7 @@ MonoBehaviour:
   _editor_drawSpawners: 1
   _editor_drawGlobalRules: 0
   _editor_drawModPackRules: 0
-  _editor_shareSelected: 1
+  _editor_shareSelected: 0
   ParentPreset: {fileID: 11400000}
   ParentPack: {fileID: 5855821939807553770}
 --- !u!114 &2757265723296920339
@@ -1112,7 +1112,7 @@ MonoBehaviour:
   CheckMode: 0
   WorldOffset: {x: 0, y: 0, z: 0}
   OffsetMode: 0
-  DirectionalOffset: {x: -2.3685, y: 1, z: 0}
+  DirectionalOffset: {x: 0, y: 1, z: 0}
   StackOffset: 0
   RotationEulerOffset: {x: 0, y: 0, z: 0}
   GetScale: 0

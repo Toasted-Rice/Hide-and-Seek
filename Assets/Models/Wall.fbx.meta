@@ -3,7 +3,17 @@ guid: 8bd7aa43cb7dd39429880cc5407de701
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wallpaper_72Edit
+    second: {fileID: 2800000, guid: 88a24d0d6f4aefe44aae19acf0b7be14, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wood_Parquet_01_Normal
+    second: {fileID: 2800000, guid: 3f9a2d059ddf017408757e275a2c4ed6, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

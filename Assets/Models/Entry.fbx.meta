@@ -3,7 +3,17 @@ guid: 42601ef8037d0f449b4bfced94ce33e9
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wallpaper.002
+    second: {fileID: -3717706805081408606, guid: 8bd7aa43cb7dd39429880cc5407de701, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood Parquet 01
+    second: {fileID: 2100000, guid: 92507a582adee9a4984c3914e3db52be, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
